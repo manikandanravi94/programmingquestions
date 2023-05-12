@@ -7,6 +7,7 @@ public class BubbleSort {
         System.out.println("before sort : "+Arrays.toString(array));
         bubbleSort(array);
         System.out.println("after sort : "+Arrays.toString(array));
+
     }
 
     private static void bubbleSort(int[] array) {
